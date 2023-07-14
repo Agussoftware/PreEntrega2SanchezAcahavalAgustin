@@ -74,6 +74,16 @@
     font-size: 23px;
     text-shadow: -4px 3px 7px rgba(0,0,0,0.61);
 }
+.tituloPaquetes{
+    display: flex;
+    justify-content: center;
+}
+.tituloPaquetes button{
+    font-size: 30px;
+    background-color: #d3cfcf;
+    border: 0;
+    border-bottom: solid 2px;
+}
 .productos{
     display: flex;
     flex-wrap: wrap;
@@ -229,7 +239,6 @@
         justify-content: space-between;
 }
 }
-
 .formulario{
     width: 800px;
     font-size: 14px;
