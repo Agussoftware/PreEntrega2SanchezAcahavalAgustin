@@ -85,9 +85,9 @@
     border-bottom: solid 2px;
 }
 .productos{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 .promocion{
     width: 270px;
@@ -98,11 +98,11 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
+    justify-self: center;
 }
 .promocion__img{
-    width: 100%;
-    height: 150x;
-    object-fit: cover;
+    width: 50%;
+    height: 10x;
 }
 .boton{
     background-color: #bdbdbd;
