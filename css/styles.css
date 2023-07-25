@@ -52,10 +52,6 @@
   .navegador .menuConLogo {
     width: 100%;
     justify-content: space-between;
-  }
-}
-@media (max-width: 578px) {
-  .navegador .menuConLogo {
     width: 100%;
     justify-content: space-between;
   }
@@ -78,7 +74,6 @@
 }
 @media (max-width: 768px) {
   .navegador .menu {
-    display: block;
     color: white;
     font-size: 30px;
     margin: 10px;
@@ -102,43 +97,11 @@
   align-items: center;
   margin: 0;
 }
-@media (max-width: 578px) {
-  .navegador ul {
-    position: fixed;
-    top: 0;
-    left: -500px;
-    background-color: beige;
-    color: black;
-    width: 80vw;
-    height: 100vh;
-    flex-direction: column;
-    align-items: center;
-    justify-content: start;
-    padding-top: 100px;
-    transition: 0.2s;
-  }
-}
 @media (max-width: 768px) {
   .navegador ul {
     position: fixed;
     top: 0;
     left: -800px;
-    background-color: beige;
-    color: black;
-    width: 80vw;
-    height: 100vh;
-    flex-direction: column;
-    align-items: center;
-    justify-content: start;
-    padding-top: 100px;
-    transition: 0.2s;
-  }
-}
-@media (max-width: 768px) and (max-width: 578px) {
-  .navegador ul {
-    position: fixed;
-    top: 0;
-    left: -500px;
     background-color: beige;
     color: black;
     width: 80vw;
@@ -12075,6 +12038,16 @@ textarea.form-control-lg {
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+}
+@media (max-width: 887px) {
+  .productos {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 587px) {
+  .productos {
+    grid-template-columns: 1fr;
+  }
 }
 
 .promocion {
