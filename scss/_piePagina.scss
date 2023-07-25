@@ -1,0 +1,40 @@
+.piePagina{
+    width: 100%;
+    background-color: #bdbdbd;
+    color: #444343;
+    display: grid;
+    grid-template-columns: 2fr 4fr 1fr;
+    column-gap: 15px;
+    padding: 10px;
+    align-items: center;
+    justify-items: center;
+    @media(max-width:1200px){
+        grid-template-columns: 1fr 1fr;
+    }
+    @media(max-width:768px){
+        grid-template-columns: 1fr;
+    }
+    .info{
+        @extend %flex-column-gap;
+    }
+    .contactos{
+        @extend %flex-column-gap;
+        .mapa{
+            width: 90%;
+            height: 180px;
+            border-radius: 7px;
+        }
+    }
+    .redes{
+        @media(max-width:768px){
+            grid-column: auto;
+        }
+    }
+    .redes i{
+        font-size: 32px;
+        margin: 10px;
+        @media(max-width:1200px){
+            grid-column: 1/3;
+        }
+    }
+} 
