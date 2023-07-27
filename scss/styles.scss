@@ -5,13 +5,13 @@
 @import "navegador";
 @import "./bootstrap/bootstrap";
 @import "carousel";
-@import "tituloProductos";
+@import "titulo-beneficios";
 @import "productos";
 @import "promocion";
 @import "piePagina";
 @import "formulario";
 
-.container-envio{
+.container-imagen-titulo{
     margin-top: 68px auto;
     padding: 2px;
     position: relative; 
@@ -24,6 +24,7 @@
         filter: blur(0.5px);
     }
     h3{
+        
         font-size: 40px;
         color: white;
         position: absolute;
@@ -42,10 +43,7 @@
             text-shadow: 0 0 10px black;
         }
 }
-.texto-container-envio{
-  display: flex;
-}
-.container {
+.container-form{
   max-width: 400px;
   margin: 50px auto;
   padding: 20px;

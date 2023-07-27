@@ -12022,16 +12022,14 @@ textarea.form-control-lg {
   text-shadow: -4px 3px 7px rgba(0, 0, 0, 0.61);
 }
 
-.tituloPaquetes {
+.titulo-beneficios {
   display: flex;
   justify-content: center;
 }
 
-.tituloPaquetes button {
+.titulo-beneficios button {
   font-size: 30px;
-  background-color: #d3cfcf;
   border: 0;
-  border-bottom: solid 2px;
   margin-top: 8px;
 }
 
@@ -12076,6 +12074,9 @@ textarea.form-control-lg {
   cursor: pointer;
   margin-top: 10px;
 }
+.promocion .boton:hover {
+  background-color: #0056b3;
+}
 
 .piePagina {
   width: 100%;
@@ -12087,6 +12088,12 @@ textarea.form-control-lg {
   padding: 10px;
   align-items: center;
   justify-items: center;
+}
+.piePagina .info h3, .piePagina .info .h3 {
+  color: black;
+}
+.piePagina .contactos {
+  color: black;
 }
 @media (max-width: 1200px) {
   .piePagina {
@@ -12180,7 +12187,7 @@ textarea.form-control-lg {
   outline: none;
 }
 
-.container-envio {
+.container-imagen-titulo {
   margin-top: 68px auto;
   padding: 2px;
   position: relative;
@@ -12188,12 +12195,12 @@ textarea.form-control-lg {
   overflow: hidden;
   text-align: center;
 }
-.container-envio img {
+.container-imagen-titulo img {
   width: 100%;
   height: 100%;
   filter: blur(0.5px);
 }
-.container-envio h3, .container-envio .h3 {
+.container-imagen-titulo h3, .container-imagen-titulo .h3 {
   font-size: 40px;
   color: white;
   position: absolute;
@@ -12202,7 +12209,7 @@ textarea.form-control-lg {
   transform: translate(-50%, -50%);
   text-shadow: 0 0 8px black;
 }
-.container-envio p {
+.container-imagen-titulo p {
   font-size: 18px;
   color: rgb(255, 255, 255);
   position: absolute;
@@ -12212,11 +12219,7 @@ textarea.form-control-lg {
   text-shadow: 0 0 10px black;
 }
 
-.texto-container-envio {
-  display: flex;
-}
-
-.container {
+.container-form {
   max-width: 400px;
   margin: 50px auto;
   padding: 20px;

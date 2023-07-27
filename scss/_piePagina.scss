@@ -8,6 +8,12 @@
     padding: 10px;
     align-items: center;
     justify-items: center;
+.info h3{
+    color: black;
+}
+.contactos{
+    color: black;
+}
     @media(max-width:1200px){
         grid-template-columns: 1fr 1fr;
     }
