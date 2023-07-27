@@ -27,8 +27,7 @@
                 </ul>
             </nav>
     </header>
-
-    <main>
+        <main>
         <div class="container-envio">
             <img src="/multimedia/img/envio.jpg" alt="img-envio">
             <h3>
@@ -37,10 +36,31 @@
             </h3>
             <p>Servicio de paquetería y mudanza </p>
         </div>
-
-        
-        
-        </main>
+    <div class="container">
+        <h2>Formulario de Cotización de Envío</h2>
+        <form action="#" method="post">
+          <label for="origen">Origen:</label>
+          <input type="text" id="origen" name="origen" required>
+    
+          <label for="destino">Destino:</label>
+          <input type="text" id="destino" name="destino" required>
+    
+          <label for="peso">Peso (kg):</label>
+          <input type="number" id="peso" name="peso" step="0.01" required>
+    
+          <label for="dimensiones">Dimensiones (largo x ancho x alto en cm):</label>
+          <input type="text" id="dimensiones" name="dimensiones" required>
+    
+          <label for="tipo_servicio">Tipo de Servicio:</label>
+          <select id="tipo_servicio" name="tipo_servicio" required>
+            <option value="estandar">Servicio Estándar</option>
+            <option value="express">Servicio Express</option>
+            <option value="prioritario">Servicio Prioritario</option>
+          </select>
+          <input type="submit" value="Cotizar Envío">
+        </form>
+      </div>
+</main>
     <footer class="piePagina">
         <div class="info">
             <h3>datos de la empresa</h3>

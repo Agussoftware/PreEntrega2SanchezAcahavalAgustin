@@ -1,6 +1,6 @@
-.promocion{
+    .promocion{
     width: 270px;
-    border: 5px solid #000000;
+    border: 2px solid #000000;
     border-radius: 5px;
     margin: 15px;
     padding: 5px;
@@ -9,14 +9,20 @@
     gap: 10px;
     justify-self: center;    
     .promocion__img{
-        width: 50%;
-    margin-left: 25%;
+        padding: 15px;
+        width: 100%;
+        height: 250px;
+    }
+    .promocion__titulo{
+        
     }
     .boton{
-        background-color: #bdbdbd;
-        border: 0px;
-        border-radius: 5px;
-        margin: 10px;
-        padding: 10px 15px; 
+        padding: 8px 20px;
+        background-color: #007BFF;
+        color: #fff;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+        margin-top: 10px; 
     }
 }
