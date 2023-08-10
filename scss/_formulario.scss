@@ -5,15 +5,15 @@
     border-radius: 5px;
     color: white;
     padding: 30px;
-    background-color: rgb(37, 99, 78);
+    background-color: rgba(0, 9, 133, 0.87);
     display: grid;
     row-gap: 10px;
     button{
-        padding: 10px 15px;
-        font-size: 20px;
-        margin: 10px;
-        border: none;
-        border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
     }
     @media(min-width:576px){
     grid-template-columns: 1fr 1fr 1fr 1fr;

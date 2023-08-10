@@ -16,7 +16,6 @@
             display: flex;
         }
     }
-
     .menuConLogo{
         display: flex;
         width: 50%;
@@ -66,19 +65,20 @@
             flex-wrap: nowrap;
             justify-content: end;
             align-items: center;
+            text-align: center;
             margin: 0;
             @media(max-width:768px){
             position: fixed;
             top: 0;
             left: -800px;
-            background-color: beige;
+            background-color: rgb(109, 111, 248);
             color: black;
-            width: 80vw;
-            height: 100vh;
+            width: 45vw;
+            height: 45vh;
             flex-direction: column;
             align-items: center;
             justify-content: start;
-            padding-top: 100px;
+            padding-top: 50px;
             transition: 0.2s;
             &:hover{
                 left: 0px;
@@ -96,5 +96,9 @@
             align-content: center;
             justify-content: center;
             justify-items: center;
+        }
+        li a:hover {
+            font-size: 20px;
+            color: black;
         }
 }
