@@ -103,7 +103,7 @@
     position: fixed;
     top: 0;
     left: -800px;
-    background-color: rgb(109, 111, 248);
+    background-color: #007BFF;
     color: black;
     width: 45vw;
     height: 45vh;
@@ -12057,13 +12057,13 @@ textarea.form-control-lg {
 
 .promocion {
   width: 270px;
-  border: 2px solid #000000;
-  border-radius: 5px;
+  border: 1px solid #e3e3e3;
+  box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.1215686275);
+  border-radius: 15px;
   margin: 15px;
   padding: 5px;
   display: flex;
   flex-direction: column;
-  gap: 10px;
   justify-self: center;
   text-align: center;
   justify-content: space-between;
@@ -12072,20 +12072,21 @@ textarea.form-control-lg {
   padding: 15px;
   width: 100%;
   height: 250px;
-  border: 2px solid #bdbdbd;
   object-fit: contain;
 }
 .promocion .promocion__titulo {
   font-size: 30px;
+  margin-top: 20px;
 }
 .promocion .boton {
   padding: 8px 20px;
   background-color: #007BFF;
   color: #fff;
   border: none;
-  border-radius: 3px;
+  border-radius: 15px;
   cursor: pointer;
   margin-top: 10px;
+  margin-bottom: 5px;
 }
 .promocion .boton:hover {
   background-color: #0056b3;
@@ -12102,11 +12103,15 @@ textarea.form-control-lg {
   align-items: center;
   justify-items: center;
 }
-.piePagina .info h3, .piePagina .info .h3 {
+.piePagina .info {
+  align-items: center;
+}
+.piePagina h3, .piePagina .h3 {
   color: black;
+  font-size: 30px;
 }
 .piePagina .contactos {
-  color: black;
+  align-items: center;
 }
 @media (max-width: 1200px) {
   .piePagina {
@@ -12268,7 +12273,7 @@ select {
 
 input[type=submit] {
   padding: 10px;
-  background-color: #4CAF50;
+  background-color: #007BFF;
   color: #fff;
   border: none;
   border-radius: 3px;
@@ -12277,7 +12282,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: #288df8;
 }
 
 @media (max-width: 600px) {
